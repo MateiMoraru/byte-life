@@ -3,11 +3,15 @@
 #include <fstream>
 #include <string>
 #include <vector>
+#include <iostream>
 using namespace std;
 
 class file_reader
 {
     public:
+        file_reader()
+        {
+        }
         ifstream file;
         string data;
         vector<string> lines;

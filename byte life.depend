@@ -1,14 +1,26 @@
 # depslib dependency file v1.0
-1671908341 source:c:\users\garce\onedrive\desktop\programer\byte life\main.cpp
+1671920786 source:c:\users\garce\onedrive\desktop\programer\byte life\main.cpp
 	<iostream>
 	"file_reader.h"
+	"game.h"
 
 1671898750 source:c:\users\garce\onedrive\desktop\programer\byte life\src\file_reader.cpp
 	"file_reader.h"
 	<iostream>
 
-1671801817 c:\users\garce\onedrive\desktop\programer\byte life\include\file_reader.h
+1671918130 c:\users\garce\onedrive\desktop\programer\byte life\include\file_reader.h
 	<fstream>
 	<string>
 	<vector>
+	<iostream>
+
+1671921066 source:c:\users\garce\onedrive\desktop\programer\byte life\src\game.cpp
+	"game.h"
+	"file_reader.h"
+	<iostream>
+
+1671920940 c:\users\garce\onedrive\desktop\programer\byte life\include\game.h
+	<vector>
+	<iostream>
+	"file_reader.h"
 
