@@ -14,13 +14,21 @@
 	<vector>
 	<iostream>
 
-1671921066 source:c:\users\garce\onedrive\desktop\programer\byte life\src\game.cpp
+1671923180 source:c:\users\garce\onedrive\desktop\programer\byte life\src\game.cpp
 	"game.h"
 	"file_reader.h"
 	<iostream>
 
-1671920940 c:\users\garce\onedrive\desktop\programer\byte life\include\game.h
+1671923195 c:\users\garce\onedrive\desktop\programer\byte life\include\game.h
 	<vector>
 	<iostream>
 	"file_reader.h"
+	"player.h"
+
+1671923242 c:\users\garce\onedrive\desktop\programer\byte life\include\player.h
+	<iostream>
+	<vector>
+
+1671923136 source:c:\users\garce\onedrive\desktop\programer\byte life\src\player.cpp
+	"player.h"
 

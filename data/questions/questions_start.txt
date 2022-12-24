@@ -1,3 +1,4 @@
-
-Character's natal country?
-Rich, poor or average wealth?
+What is your character's natal country?
+Are they rich, poor or average?
+Are they Male or female?
+What's their name?

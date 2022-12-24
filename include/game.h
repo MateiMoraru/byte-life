@@ -3,6 +3,8 @@
 #include <vector>
 #include <iostream>
 #include "file_reader.h"
+#include "player.h"
+
 class game
 {
     public:
@@ -13,6 +15,7 @@ class game
         std::vector<std::string> questions_start;
         file_reader file;
         string response;
+        player character;
 };
 
 #endif // GAME_H
