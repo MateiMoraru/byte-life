@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1671908341 source:c:\users\garce\onedrive\desktop\programer\byte life\main.cpp
+	<iostream>
+	"file_reader.h"
+
+1671898750 source:c:\users\garce\onedrive\desktop\programer\byte life\src\file_reader.cpp
+	"file_reader.h"
+	<iostream>
+
+1671801817 c:\users\garce\onedrive\desktop\programer\byte life\include\file_reader.h
+	<fstream>
+	<string>
+	<vector>
+
