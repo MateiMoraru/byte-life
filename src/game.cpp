@@ -12,6 +12,7 @@ void game::init()
     game::questions_start = game::file.lines;
 
     game::character = player();
+    game::character.init();
 }
 
 void game::ask_question(vector<string> q, int i)
@@ -27,11 +28,14 @@ void game::ask_question(vector<string> q, int i)
 
 void game::start()
 {
+    vector<string> player_data = game::character.data;
+    player &character = game::character;
+
     for(int i = 0; i < game::questions_start.size(); i++)
     {
         game::ask_question(game::questions_start, i);
         game::character.add_data(game::response);
     }
 
-    cout << game::character.data[3] << " was born in " << game::character.data[0] << "!" << endl;
+    cout << player_data[character.name] << " was born!" << endl;
 }

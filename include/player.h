@@ -12,12 +12,21 @@ class player
 
         };
         vector<string> data;
-        //string nationality;
-        //int wealth;
-        //int gender;
-        //int age;
-        //string name;
 
+        int nationality = 0;
+        int wealth = 1;
+        int sex = 2;
+        int name = 3;
+
+        int age = 0;
+        int money = 0;
+
+        int year;
+        int month;
+        int day;
+
+        void init();
+        void set_date();
         void add_data(string d);
 
 };

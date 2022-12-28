@@ -1,0 +1,4 @@
+Q:Your mom forgot to feed you. What will you do? 1 - cry; 2 - go to sleep;
+1-She fed you and now you can go to sleep.
+2-Your nap was horrible and you are even more hungry, but your mom remembered to feed you.
+Q:
